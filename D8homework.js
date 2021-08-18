@@ -15,17 +15,21 @@
       Write a function for changing the class of the title of the page in "myHeading".
       */
 
-      const addClassToTitle = function () {
-        //
-      };
+      document.getElementById("MyHeading").title.add('MyClass');
+      if ( document.getElementById("MyHeading").title.contains('MyClass') )
+      {
+      document.getElementById("MyHeading").title.toggle('MyClass');
+      }
 
       /* EXERCISE 3
       Write a function for changing the text of only the p which are children of a div.
       */
 
-      const changePcontent = function () {
-        //
-      };
+let my_div = document.getElementById('my_div');
+
+let text_to_change = my_div.childNodes[0];
+
+text_to_change.nodeValue = 'new text';
 
       /* EXERCISE 4
       Write a function for changing the destination of every link to https://www.google.com
