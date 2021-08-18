@@ -39,14 +39,13 @@ text_to_change.nodeValue = 'new text';
         document.querySelector("a").href = "https://www.google.com/"
         //
       };
-      
+
     /* EXERCISE 5
        Write a function for adding a new item in the second list.
        */
 
-      const addToTheSecond = function (content) {
-        //
-      };
+    let secondList = ["Cat", "Dog", "Elk", "Monkey"];
+    secondList.push("Fish");
 
       /* EXERCISE 6
       Write a function for adding a second paragraph to the div.
