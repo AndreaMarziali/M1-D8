@@ -50,8 +50,12 @@ text_to_change.nodeValue = 'new text';
       /* EXERCISE 6
       Write a function for adding a second paragraph to the div.
       */
-
-      const addParagraph = function (content) {
+    
+      const addParagraph = function () {addNode() 
+        {let addParagraph = document.createElement("div"); 
+         let textNode = document.createTextNode(" This is a new text node"); 
+         newP.appendChild(textNode);
+         document.getElementById("div").appendChild(div); } 
         //
       };
 
