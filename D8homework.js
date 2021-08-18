@@ -71,9 +71,9 @@ text_to_change.nodeValue = 'new text';
       Write a function for making the background of every UL green.
       */
 
-      const paintItGreen = function () {
-        //
-      };
+      $("Ul").click(function() {
+        $(this).css("background-color", "green");
+    });
 
       /* EXERCISE 9
       Make the heading of the page change color every time the user clicks on it.
