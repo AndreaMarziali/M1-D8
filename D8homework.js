@@ -31,15 +31,16 @@ let text_to_change = my_div.childNodes[0];
 
 text_to_change.nodeValue = 'new text';
 
-      /* EXERCISE 4
+     /* EXERCISE 4
       Write a function for changing the destination of every link to https://www.google.com
       */
 
-      const changeUrls = function () {
+    let newUrl = function () {
+        document.querySelector("a").href = "https://www.google.com/"
         //
       };
-
-      /* EXERCISE 5
+      
+    /* EXERCISE 5
        Write a function for adding a new item in the second list.
        */
 
@@ -104,5 +105,4 @@ text_to_change.nodeValue = 'new text';
 
       /* EXERCISE 13
       Use HTML5 tags to divide the content of the page in a more semantic way.
-      */
-    };
+      */ };
